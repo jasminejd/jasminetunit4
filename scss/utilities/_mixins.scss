@@ -1,8 +1,6 @@
 
-@mixin mq($break) {
-  @if $break == "medium" {
-    @media (min-width: $breakpoint-md + 1) {
+@mixin mq($break:$breakpoint-md) {
+    @media (min-width: $break) {
       @content;
     }
-  }
 }
