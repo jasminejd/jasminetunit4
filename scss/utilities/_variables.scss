@@ -1,4 +1,18 @@
 
-$color-primary: #278da4;
-$color-secondary: #b13c69;
-$color-accent: #eeea72;
+// Colors
+$color-primary: #51ddfc; // light blue
+$color-secondary: #58e1c1; // light green
+$color-text: #777; // dark grey
+$white: #fff;
+
+$color-success: #63cc82; // green
+$color-error: #e4757a; // red
+$color-warning: #fd7856; // orange
+$color-info: #927bc1; // purple
+
+
+// Fonts
+$font-stack-primary: 'Lato', sans-serif;
+
+// Breakpoints
+$breakpoint-md: 768px;
